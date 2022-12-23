@@ -1,6 +1,6 @@
 # README Generator
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -29,7 +29,7 @@ None.
 
 ## License
 
-  This software is covered under The Unlicense. To find out more, visit [Unlicense](http://unlicense.org/)
+  This software is covered under MIT License. To find out more, visit [MIT License](https://opensource.org/licenses/MIT).
 
 ## Testing
 
