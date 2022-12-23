@@ -4,7 +4,7 @@
 
 ## Description
 
-A command-line tool for gnerating robust README markdown files based on user input.
+A command-line tool for generating robust README markdown files from user input.
 
 ## Table of Contents
 
@@ -21,7 +21,9 @@ Download a copy of the repository from GitHub. In the project root, run 'npm ini
 
 ## Usage
 
-Respond to all the questions honestly. You could use it to generate a README for any project.
+Respond honestly and thoroughly to all the questions. It could be used to generate a README for any sort of project.
+
+To view a walkthrough video, visit https://drive.google.com/file/d/13CTgFmYoAdBemzXlG3jjMAf2yIRH2_6F
 
 ## Credits
 
@@ -29,7 +31,7 @@ None.
 
 ## License
 
-  This software is covered under MIT License. To find out more, visit [MIT License](https://opensource.org/licenses/MIT).
+  This software is covered under MIT License. To find out more, visit [MIT License](https://opensource.org/licenses/MIT)
 
 ## Testing
 
