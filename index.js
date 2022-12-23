@@ -14,14 +14,19 @@ const questions = [
     'Provide instructions on how to run tests, if you made any.',
     'List your collaborators, if any, with links to their GitHub profiles.',
     'How can other developers contribute to this project?',
-    'What License would you like to use?'
+    'What license would you like to use?'
 ];
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     const str = generateMarkdown(data);
-    console.log(str);
+    fs.writeFile(fileName, str, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+        console.log("The file was saved!");
+    }); 
 
 }
 
@@ -67,7 +72,7 @@ function init() {
         {
             type: 'input',
             message: questions[7],
-            name: 'collaberators',
+            name: 'credits',
         },
         {
             type: 'input',
@@ -78,11 +83,11 @@ function init() {
             type: 'list',
             message: questions[9],
             name: 'license',
-            choices: ['MIT License', 'GNU AGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense' ]
+            choices: ['MIT License', 'GNU AGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense', 'None' ]
         }
     ])
     .then((response) =>
-        writeToFile("LEADME.md", response)
+        writeToFile("README.md", response)
     );
 }
 
